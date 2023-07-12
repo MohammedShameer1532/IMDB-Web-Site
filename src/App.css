@@ -1,0 +1,26 @@
+.inpt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.btn2 {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: #00a8ff;
+  border-radius: 6px;
+  border: none;
+}
+.get {
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
