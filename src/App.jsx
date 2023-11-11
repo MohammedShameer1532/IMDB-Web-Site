@@ -20,19 +20,7 @@ const App =()=>{
     .then((response)=>response.json())
     .then((data)=>{
       console.log(data);
-
-      // const search = data.Search[0].Title;
-      // const poster = data.Search[0].Poster;
-      // const type = data.Search[0].Type;
-      // const year  = data.Search[0].Year;
-      // const imdbID = data.Search[0].imdbID;
-
-
-    
-
       setGetData(data.Search);
-      
-
     });
    
   }
@@ -40,8 +28,7 @@ const App =()=>{
   return(
     <div>
          <Input onChange={handleChangeEvent}/>
-      
-  
+
     <Button onClick={handleClick}/>
 
     <Get getData={getData} />
