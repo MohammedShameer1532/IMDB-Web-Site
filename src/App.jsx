@@ -2,9 +2,6 @@ import React, {useState } from "react";
 import Input from "./Input";
 import Button from "./Button";
 import Get from "./Get";
-
-
-
 const App =()=>{
   const [search,setSearch] = useState("");
   const [getData,setGetData] =useState([]);
