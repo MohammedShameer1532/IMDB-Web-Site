@@ -19,7 +19,7 @@ const App = () => {
 
     const apiKey = 'aa903cd7';
 
-    fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}&s=${search}`)
+    fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}&s=${search}`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
